@@ -1,0 +1,15 @@
+body{
+    background-color: blanchedalmond;
+}
+ul{
+    padding-left: 100px;
+}
+
+.login{
+    padding-right: 45%;
+    padding-left: 45%;
+    padding-top: 15%;
+    padding-bottom: 20%;
+    display: block;
+    size: 20%;
+}
