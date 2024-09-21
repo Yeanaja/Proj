@@ -1,15 +1,63 @@
 body{
     background-color: blanchedalmond;
 }
-ul{
-    padding-left: 100px;
-}
 
 .login{
-    padding-right: 45%;
-    padding-left: 45%;
-    padding-top: 15%;
-    padding-bottom: 20%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    padding: 30px;
     display: block;
-    size: 20%;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+}
+.logo{
+    transform: translate(-45%, -30%);
+    top: 30%;
+    left: 50%;
+}
+input{
+    width: 100%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    height: 30px;
+}
+.pass{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+}
+.button{
+    width: 100%;
+    margin-top: 15px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+}
+button:hover{
+    color: gray;
+    border: 2px solid gray;
+}
+.other{
+    display: flex;
+    border: 2px solid black;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 50%;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 10px;
+    height: 30px;
+}
+.signup{
+    padding-top: 5px;
+}
+a{
+    padding-top: 5px;
+    padding-left: 5px;
 }
