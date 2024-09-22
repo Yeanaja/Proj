@@ -14,9 +14,12 @@ body{
     width: 200px;
 }
 .logo{
-    transform: translate(-45%, -30%);
+    padding-top: 15%;
+    padding-left: 50%;
     top: 30%;
     left: 50%;
+    width: 100px;
+    justify-content: center;
 }
 input{
     width: 100%;
